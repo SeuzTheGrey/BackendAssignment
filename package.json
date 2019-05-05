@@ -7,7 +7,7 @@
     "test": "test",
     "prettier": "prettier --write \"src/**/*.js\"",
     "prettier:list": "prettier --list-different \"src/**/*.js\"",
-    "start": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts"
+    "start": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec ts-node src/index.ts"
   },
   "prettier": {
     "singleQuote": true,
